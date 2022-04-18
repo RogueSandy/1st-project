@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+/* Calistoga  */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+/* Libre Franklin */
+
+
+
+
+body {
+    font-size: 15pt;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(presets/6365918.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    color: black;
+}
+
+.container
+{
+  margin: 0 10% ;
+}
+
+header{
+  margin-top: 50px;
+}
+header nav {
+  margin: 70px 0px;
+}
+
+header nav a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: grey;
+}
+header nav a:hover,
+header nav a:valid{
+  color: black;
+  border-bottom: 3px solid black;
+}
+
+.right {
+  float: right;
+  position: relative;
+  padding: 10px 40px;
+  margin-top: -10px;
+  border: black solid 3px !important;
+  border-radius: 5px;
+  color: black !important;
+}
+
+.First {
+  overflow: hidden;
+}
+
+.First img {
+  width: 55%;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.First h1 {
+  font-family: 'Calistoga';
+  font-size: 65px;
+}
+
+.First p {
+  font-size: 20px;
+  margin-top: -30px;
+  position: relative;
+  width:35%;
+}
+
+.First input{
+  padding: 10px 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-family: 'Libre Franklin';
+  border: none;
+}
+.btn:hover{
+  cursor: pointer;
+}
+
+
+.Second {
+  color: white;
+  background-color: black;
+  margin: 0 -20%;
+  
+}
+
+.Second div {
+  width: 40%;
+  margin: 20px auto 50px;
+  text-align: center;
+  padding: 30px 0 50px;
+}
+
+.Second h1 {
+  font-size: 43px;
+  font-family: 'Calistoga';
+}
+
+.Second input {
+  background-color: black;
+  color: white;
+  border-color: White;
+  border-radius: 5px;
+  padding: 10px 45px;
+}
+
+.Third a {
+  color: inherit;
+}
+.Third a:hover{
+  cursor: pointer;
+}
+.topics {
+ float: left;
+ width: 31%;
+}
+.topics img {
+  width: 100%;
+  box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.5);
+}
+
+#mid{
+  margin: 0 3.5%;
+}
+
+.topics h1{
+  font-family: 'Calistoga';
+  font-size: 40px;
+  position: relative;
+}
+.topics h1::before{
+  content: ' ';
+  position: absolute;
+  top: -15px;
+  left: 3px;
+  height: 3px;
+  width: 33px;
+  border-radius: 12px;
+  background: black;
+}
+.topics p{
+  font-size: 20px;
+}
+
+.center img{
+  display: block;
+  margin: 0 auto 0;
+  padding-top: 200px;
+  width: 70px;
+}
+.center h1{
+  font-family: 'Calistoga';
+  font-size: 43px;
+  text-align: center;
+}
+
+.plane-2{
+  overflow: hidden;
+  float: right;
+  width: 30%;
+  border-left: #e8e8e8 solid 50px;
+}
+
+.plane li img {
+  width: 18px;
+  float: right;
+}
+
+.plane li{
+  width: 60%;
+  list-style: none
+}
+.plane li:hover{
+  cursor: pointer;
+}
+
+
+.plane li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+.review {
+  font-family: 'Calistoga';
+  font-size: 43px;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  width: 60%;
+}
+ .carousel {
+  background: #e8e8e8;
+}
+.carousel-cell {
+  width: 50%;
+  height:400px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  background: #e8e8e8;
+  border: black solid 3px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.3);
+}
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+/content: counter(carousel-cell);/
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell img {
+  padding-top: 40px;
+  display: block;
+  margin: 10px auto;
+}
+.carousel-cell h1 {
+  font-family: 'Calistoga';
+  font-size: 30px;
+  text-align: center;
+}
+.carousel-cell p {
+  font-size: 20px;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.Contact{
+  overflow: hidden;
+}
+.heading{
+  width: 40%;
+  float: left;
+  margin-bottom: 20px;
+}
+.heading h1{
+  text-align: center;
+  font-family: 'Calistoga';
+  font-size: 43px;
+}
+.heading form input, textarea{
+  width: 100%;
+  margin: 8px;
+  padding:8px;
+  border: black solid 2px ;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.heading form input:focus,
+.heading form input:valid{
+  border-color: lightskyblue;
+}
+::placeholder {
+  color: black ;
+}
+.heading form input[type=button]{
+  width: 100%;
+  background-color: black !important;
+  border: none !important;
+  color: #e8e8e8;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Libre Franklin';
+  margin-top: 25px;
+}
+.Contact img{
+  float: right;
+  width: 48%;
+  margin-top: 40px;
+  height: 530px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.grey{
+  background-color: #c4c4c4;
+  padding: 50px 10%;
+}
+.inner{
+  width: 100%;
+  /* height: 200px; */
+  overflow: hidden;
+}
+.main_h{
+  font-family: 'Calistoga';
+  font-size: 60px;
+  width: 200px;
+  /* padding-bottom: 150px; */
+  padding-right: 100px;
+  float: left;
+}
+.sub_h{
+  font-size: 30px;
+}
+table a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+table td{
+  padding: 15px 30px;
+}
+.copy{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
